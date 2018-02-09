@@ -1,0 +1,15 @@
+spring:
+  application: wechat
+  jersey:
+    application-path: /api
+  datasource:
+    url: jdbc:oracle:thin:@
+    username: 
+    password: 
+    driver-class-name: oracle.jdbc.OracleDriver
+  jpa:
+    database-platform: org.hibernate.dialect.Oracle10gDialect
+server:
+  port: 8090
+  address: localhost
+  servlet-path: /
